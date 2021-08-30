@@ -11,44 +11,74 @@
 - Library : Pytorch
 
 3. 디렉토리 구조
+
   engine 
+  
     └__pycache__
+    
     └__init__.py
+    
     └learn.py
+    
     └model.py
+    
   resource
+  
     └FashionMNIST
+    
       └parameter
+      
       └raw
+      
   storage
+  
   main.py
+  
   ML.py
+  
   README.md
+  
 
 4. 실행파일의 목적
+
   main.py : 학습된 머신러닝 코드와 파라메터를 호출하여 주어진 데이터에 대한 inference 수행
+  
   ML.py : 머신러닝 학습을 수행
+  
   engine/model.py : 머신러닝 구조를 제공함.
+  
                     class NeuralNetwork  - 정상작동. 노드(784, 512, 512, 10)
+                    
                     class CNN            - 현재 수정중
+                    
   engine/learn.py : 머신러닝 학습을 위한 함수를 제공함.
+  
                     function train       - 학습 기능 제공
+                    
                     function test        - 테스트 기능 제공
+                    
 
 5. resource 폴더
+
   - 이 폴더에는 데이터셋을 위한 raw파일과 학습 결과인 parameter파일를 저장한다.
+  - 
   - 디렉토리 템플릿
+  - 
     [dataset] - [parameter]
+    
               - [raw]
 
 
 
 Referenece
+
 https://pytorch.org/docs/stable/index.html
 
 
 Appendix
+
 버전 관리 규칙
+
 - 여기서 버전은 임시로 X.Y.Z라 정의한다.
 
   Z의 변경
