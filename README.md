@@ -64,7 +64,9 @@
 
   - 디렉토리 템플릿
 
-    [dataset] - [parameter]
+    [dataset] 
+    
+              - [parameter]
     
               - [raw]
 
