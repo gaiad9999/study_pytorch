@@ -3,14 +3,14 @@
 
 - *참조* : Readme를 위해 사용할 글 작성 양식이나 세부적인 내용은 필요에 따라 계속 변경할 것임.
 
-1. 목적
+## 1. 목적
 - Python 머신러닝 라이브러리인 Pytorch에 대한 공부
 
-2. 사용 언어
+## 2. 사용 언어
 - Language : Python
 - Library : Pytorch
 
-3. 디렉토리 구조
+## 3. 디렉토리 구조
 
   engine 
   
@@ -39,7 +39,7 @@
   README.md
   
 
-4. 실행파일의 목적
+## 4. 실행파일의 목적
 
   main.py : 학습된 머신러닝 코드와 파라메터를 호출하여 주어진 데이터에 대한 inference 수행
   
@@ -58,7 +58,7 @@
                     function test        - 테스트 기능 제공
                     
 
-5. resource 폴더
+## 5. resource 폴더
 
   - 이 폴더에는 데이터셋을 위한 raw파일과 학습 결과인 parameter파일를 저장한다.
 
@@ -72,12 +72,12 @@
 
 
 
-Referenece
+## Referenece
 
 https://pytorch.org/docs/stable/index.html
 
 
-Appendix
+## Appendix
 
 버전 관리 규칙
 
