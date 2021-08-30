@@ -13,6 +13,7 @@
 3. 디렉토리 구조
 
   engine 
+  
     └__pycache__
     
     └__init__.py
@@ -22,6 +23,7 @@
     └model.py
     
   resource
+  
     └FashionMNIST
     
       └parameter
@@ -44,11 +46,13 @@
   ML.py : 머신러닝 학습을 수행
   
   engine/model.py : 머신러닝 구조를 제공함.
+  
                     class NeuralNetwork  - 정상작동. 노드(784, 512, 512, 10)
                     
                     class CNN            - 현재 수정중
                     
   engine/learn.py : 머신러닝 학습을 위한 함수를 제공함.
+  
                     function train       - 학습 기능 제공
                     
                     function test        - 테스트 기능 제공
@@ -61,6 +65,7 @@
   - 디렉토리 템플릿
 
     [dataset] - [parameter]
+    
               - [raw]
 
 
